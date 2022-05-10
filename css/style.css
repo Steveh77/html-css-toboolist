@@ -1,0 +1,82 @@
+header{
+    background-color: white;
+}
+h1{
+    display: inline;
+    vertical-align:top;
+}
+body{
+    font-size: 20px;
+    font-family:Arial (sans-serif);
+}
+/* main e buttons */
+main{
+    background-color: rgba(246,248,249,255);
+    padding-top: 15px;
+}
+.buttons{
+    margin: 5px 150px 1px 150px;
+    padding-left: 40px;
+    padding-right: 50px;
+    background-color: white;
+    
+}
+#add-task-button{
+    background-color: rgba(71,173,241,255);
+    color: white;
+    border-radius: 5px;
+    width: 90px;
+    height: 35px;
+    border: none;
+}
+#add-section-button{
+    color: rgba(215,219,223,255);
+    background-color: white;
+    border-radius: 5px;
+    width: 90px;
+    height: 35px;
+    border-color: rgba(212,216,220,255);
+    border-width: 2px;
+    border-style: solid;
+}
+/* lista menù a tendina */
+.container{
+    margin: 5px 150px 50px 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: white;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    
+}
+.list{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style: '▾';  
+}
+h3{
+    margin: 5px;
+    font-weight: bold;
+}
+span{
+    border-radius:5px;
+    color: white;
+    vertical-align: sub;
+    font-size: 15px;
+    padding: 5px;
+}
+ /*classi con border radius*/
+.editorial{
+    background-color: rgba(69,171,234,255);
+}
+.q1-goals{
+    background-color: rgba(156,114,228,255);
+}
+.recruiting{
+    background-color: rgba(100,192,169,255);
+}
+.mobile{
+    background-color: rgba(242,158,51,255);
+}
